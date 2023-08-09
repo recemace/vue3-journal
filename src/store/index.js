@@ -1,14 +1,21 @@
 import { createStore } from 'vuex'
 
-export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
+import journalModule from '@/modules/daybook/store/journal';
+
+const store = createStore({
+  // state: {
+  // },
+  // getters: {
+  // },
+  // mutations: {
+  // },
+  // actions: {
+  // },
+  // modules: {
+  // }
+  modules:{
+    journalModule
   }
 })
+
+export default store
