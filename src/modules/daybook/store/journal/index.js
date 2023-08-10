@@ -1,9 +1,9 @@
 import state from './state'
-import actions from './actions'
-import mutations from './mutations'
-import getters from './getters'
+import * as actions from './actions'
+import * as mutations from './mutations'
+import * as getters from './getters'
 
-const journalModule = {
+const journal = {
     namespaced: true,
     actions, // acciones async que puede llamar mutaciones
     getters, // para traer info del state
@@ -11,4 +11,4 @@ const journalModule = {
     state, // datos
 }
 
-export default journalModule
+export default journal
