@@ -126,7 +126,7 @@ export default {
         },
         async sendentry(){
 
-            new Swal({
+            Swal({
                 title: 'Espere por favor',
                 allowOutsideClick: false
             })
@@ -156,7 +156,7 @@ export default {
             })
 
             if ( isConfirmed ) {
-                new Swal({
+                Swal({
                     title: 'Espere por favor',
                     allowOutsideClick: false
                 })

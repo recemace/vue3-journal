@@ -5,10 +5,10 @@
 
 // const myCustomModule = {
 //     namespaced: true,
-//     actions, // acciones async que puede llamar mutaciones
-//     getters, // para traer info del state
-//     mutations, // sync modifican el state
-//     state, // datos
+//     actions, acciones async que puede llamar mutaciones
+//     getters, para traer info del state
+//     mutations, sync modifican el state
+//     state, datos
 // }
 
 // export default myCustomModule
