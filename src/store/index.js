@@ -4,7 +4,7 @@ import journal from '@/modules/daybook/store/journal';
 
 const store = createStore({
   modules: {
-    journal: journal
+    journal
   }
 })
 
